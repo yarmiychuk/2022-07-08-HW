@@ -16,7 +16,7 @@ if(num1 > num2)
     num2 = temp;
 }
 
-if (num1 != num2)
+if(num1 != num2)
     Console.WriteLine(num1 + " меньше, чем " + num2);
 else
     Console.WriteLine("Введённые числа равны");

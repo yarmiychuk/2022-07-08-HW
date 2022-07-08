@@ -17,7 +17,7 @@ if(num2 > max)
 if(num3 > max)
     max = num3;
 
-if (num1 != num2 || num2 != num3)
+if(num1 != num2 || num2 != num3)
     Console.WriteLine("Наибольшее число: " + max);
 else
     Console.WriteLine("Введённые числа равны");
